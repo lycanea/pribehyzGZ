@@ -1,0 +1,169 @@
+
+body {
+  background: white;
+ font-family:  "Times new roman", serif;
+  font-size: 22px;
+
+
+ }
+  
+h2 {
+  text-align: center;
+  font-size: 44px;
+  margin: 0;
+  padding: 50px 0 0;
+  line-height: 1; }
+
+.carrot {
+  background-image: url(http://icons.iconarchive.com/icons/visualpharm/icons8-metro-style/512/Kitchen-Carrot-icon.png);
+  background-size: contain;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 30px auto;
+  position: relative;
+  opacity: 0.3; }
+  .carrot:before, .carrot:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px; }
+  .carrot:before {
+    left: 100%;
+    margin-left: 20px; }
+  .carrot:after {
+    right: 100%;
+    margin-right: 20px; }
+
+.container {
+  margin: 0 auto;
+  background: white;
+
+  padding: 50px;
+  box-sizing: border-box; }
+
+.container {
+  width: 960px;
+  *zoom: 1; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+    
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1500px) {
+  .container {
+  width: 800px;
+    display: block;
+
+  top: 700px;
+  right: 30px;}}
+  
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 800px) {
+  .container {
+  display: block;
+  width: 700px;
+  }
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .container {
+  display: block;
+  width: 650px;
+  }
+    /* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 600px) {
+  .container {
+  display: block;
+  width: 550px;
+  }
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 500px) {
+  .container {
+  display: block;
+  width: 450px;
+  }  
+    /* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 400px) {
+  .container {
+  display: block;
+  width: 350px;
+  }
+@media screen and (max-width: 300px) {
+  .container {
+  display: block;
+  width: 250px;
+  }  
+  @media screen and (max-width: 200px) {
+  .container {
+  display: block;
+  width: 150px;
+  }  
+  .container a {float: right;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .container a {
+display: none;
+  }
+}    
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 20px; }
