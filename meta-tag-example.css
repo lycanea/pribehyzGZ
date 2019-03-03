@@ -100,7 +100,7 @@ h2 {
 @media screen and (max-width: 450px) {
   .container {
   display: block;
-  width: 350px;
+  width: 400px;
       font-size: 14px;
   }  
   @media screen and (max-width: 250px) {
