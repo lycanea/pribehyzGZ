@@ -65,39 +65,39 @@ h2 {
   right: 30px;}}
   
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .container {
   display: block;
   width: 700px;
   }
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .container {
   display: block;
   width: 650px;
   }
     /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .container {
   display: block;
   width: 550px;
         font-size: 14px;
   }
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container {
   display: block;
   width: 450px;
         font-size: 14px;
   }  
     /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .container {
   display: block;
   width: 350px;
       font-size: 14px;
   }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .container {
   display: block;
   width: 250px;
@@ -106,7 +106,7 @@ h2 {
   @media screen and (max-width: 250px) {
   .container {
   display: block;
-  width: 150px;
+  width: 200px;
     font-size: 14px;
   }  
   .container a {float: right;}
