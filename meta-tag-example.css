@@ -81,28 +81,33 @@ h2 {
   .container {
   display: block;
   width: 550px;
+        font-size: 14px;
   }
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 500px) {
   .container {
   display: block;
   width: 450px;
+        font-size: 14px;
   }  
     /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .container {
   display: block;
   width: 350px;
+      font-size: 14px;
   }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 250px) {
   .container {
   display: block;
   width: 250px;
+      font-size: 14px;
   }  
-  @media screen and (max-width: 200px) {
+  @media screen and (max-width: 150px) {
   .container {
   display: block;
   width: 150px;
+    font-size: 14px;
   }  
   .container a {float: right;}
   div.content {margin-left: 0;}
@@ -116,50 +121,6 @@ display: none;
 }    
 
 
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 
 .column {
