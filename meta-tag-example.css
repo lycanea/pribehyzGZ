@@ -91,19 +91,19 @@ h2 {
         font-size: 14px;
   }  
     /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .container {
   display: block;
   width: 350px;
       font-size: 14px;
   }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 350px) {
   .container {
   display: block;
   width: 250px;
       font-size: 14px;
   }  
-  @media screen and (max-width: 150px) {
+  @media screen and (max-width: 250px) {
   .container {
   display: block;
   width: 150px;
